@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2020_08_30_104556) do
     t.text "content"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.boolean "checked"
   end
 
 end
